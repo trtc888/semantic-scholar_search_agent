@@ -4,7 +4,7 @@ Agentic AI system for automatically finding relevant academic papers from Semant
 
 An example prompt for the search is: enzyme kinetics with new formulas or algorithms in biochemistry, not with deep learning or molecular dynamics, published after 2025-08-31. With the this prompt, the llm will create the search keywords, and send the query to Semantic Scholar for a list of papers. The agent will send the abstracts to llm for further analysis to identify the papers matched with the prompt. If the matched paper is not enough, the agent will request the llm to change keywords and query again. 
 
-The system has only been tested with groq/llama-3.1-8b-instant as the llm, since it supports 14.4 K requests per day without a charge.
+The system has only been tested with groq/llama-3.1-8b-instant as the llm, since it supports 14.4 K requests per day without a charge. Groq provides free API keys. Particularly for llama-3.1-8b-instant model, it supports 14.4 K requests per 24 h, which should be enough for this agentic AI for personal uses.
 
 ## First-Time Setup
 
