@@ -58,7 +58,13 @@ GROQ_API_KEY=your_api_key_here
 streamlit run webapp.py
 ```
 
-Then open http://localhost:8501 in your browser.
+Then open http://127.0.0.1:8501 or http://your.ip.address:8501 in your browser.
+
+If you want to restrict the access to 127.0.0.1, then use the command below:
+
+```bash
+streamlit run webapp.py --server.address 127.0.0.1
+```
 
 ---
 
